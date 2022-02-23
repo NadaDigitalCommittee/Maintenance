@@ -1,0 +1,14 @@
+@charset "utf-8";
+p {
+  font-family: "Noto Sans JP";
+  font-size: 13vw;
+  width: fit-content;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 1000px) {
+  p {
+    font-size: 5em;
+  }
+}
